@@ -9,3 +9,6 @@ AppEnv.AppVer = "1.0.0".split(".");
 if(Number(AppEnv.NodeVer[0])<19){console.log("Please Update NodeJs");process.exit(1);}
 console.log(AppEnv.NodeVer);
 //需要先检测环境 再设置环境变量和配置
+var bashargs = process.argv.splice(2);
+console.log('所传递的参数是：', bashargs);
+//输出启动命令行
