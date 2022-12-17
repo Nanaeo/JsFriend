@@ -2,8 +2,8 @@
 
 'use strict';
 
-function logger(message) {
-  console.log(message)
+function loader(message) {
+  console.log("命令行加载成功")
 }
 
-module.exports = logger;
+module.exports = loader;
