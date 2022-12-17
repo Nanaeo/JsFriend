@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nanaeo/JsFriend/issues"
   },
-  "homepage": "https://github.com/Nanaeo/JsFriend#readme"
+  "homepage": "https://github.com/Nanaeo/JsFriend#readme",
+  "dependencies": {
+    "yaml": "^2.1.3"
+  }
 }
